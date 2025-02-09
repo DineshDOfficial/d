@@ -1,4 +1,4 @@
-# D – Decentralized Computing, Storage & Data Sharing Platform
+# D
 
 **D** is an open-source, decentralized computing and storage network that enables users to contribute their idle compute power and storage in exchange for payments, while allowing developers to access a cost-efficient, distributed cloud infrastructure. It is designed as a **decentralized alternative** to traditional cloud providers like AWS, Google Cloud, and Azure without a central authority.
 
