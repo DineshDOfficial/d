@@ -7,6 +7,7 @@ To create a **Decentralized cloud**, where computing power and storage are distr
 
 ## How It Works
 1. **Users Install the D App** → Join the network as a **node** by sharing compute & storage.
-2. **Load Balancer** → Distributes computing tasks dynamically.
-4. **Offer Device for Compute** →  Users can offer their devices to receive traffic and execute tasks.
-5.  **Decentralized Storage** → Files are sharded, encrypted, and distributed across nodes.
+2. **Offer Nodes for Compute** →  Users can offer their devices to receive traffic and execute tasks.
+3. **Use Nodes as servers** →  Users can pay and use the nodes as servers for various uses.
+4. **Decentralized Storage** → Files are sharded, encrypted, and distributed across nodes.
+5. **Load Balancer** → Distributes computing tasks dynamically.
