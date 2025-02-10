@@ -62,7 +62,3 @@ D is open-source and welcomes contributions!
 ## 📜 License
 
 D is licensed under [MIT License](LICENSE).  
-
----
-  
-> **Join the movement** towards a **fully decentralized cloud**—without the limits of centralized providers! 🚀  
