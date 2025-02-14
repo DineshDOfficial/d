@@ -1,0 +1,12 @@
+{
+  "name": "compute",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node --experimental-modules index.js"
+  },
+  "dependencies": {
+    "libp2p": "latest",
+    "@libp2p/tcp": "latest"
+  }
+}

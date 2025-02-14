@@ -1,0 +1,11 @@
+{
+  "name": "storage-engine",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ipfs-core": "^0.18.0"
+  }
+} 

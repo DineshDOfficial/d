@@ -1,0 +1,29 @@
+{
+    "name": "d",
+    "version": "1.0.0",
+    "private": true,
+    "workspaces": [
+        "src/webclient",
+        "src/signal",
+        "src/node",
+        "src/compute",
+        "src/storage"
+    ],
+    "scripts": {
+        "install": "npm install --prefer-offline --no-audit --progress=true",
+        "start": "concurrently \"npm run dev:webclient\" \"npm run dev:signal\" \"npm run dev:node\"",
+        "start:webclient": "cd src/webclient && npm run dev",
+        "start:signal": "cd src/signal && node index.js",
+        "start:node": "cd src/node && node index.js",
+        "start:compute": "cd src/compute && node index.js",
+        "start:storage": "cd src/storage && node index.js"
+    },
+    "author": {
+        "name": "Dinesh"
+    },
+    "dependencies": {
+        "concurrently": "^8.2.0",
+        "cors": "^2.8.5",
+        "uuid": "^11.0.5"
+    }
+}
