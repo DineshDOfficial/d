@@ -2,7 +2,10 @@ const { Transform } = require('stream');
 
 const SPLIT_SEQUENCE = '}{';
 
+
 module.exports = () => new Transform({
+
+
   objectMode: true,
   write (chunk, enc, cb) {
     // Split int json messages by the following
