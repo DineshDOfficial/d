@@ -23,7 +23,7 @@ module.exports = (options) => {
     connections.set(connectionId, socket);
     emitter.emit('_connect', connectionId);
 
-    socket.on('close', () => {
+    socket.on('close', () => { 
       connections.delete(connectionId);
       emitter.emit('_disconnect', connectionId);
     });
